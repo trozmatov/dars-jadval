@@ -4,6 +4,7 @@
     <router-link to="/about">Kurslar</router-link>
   </nav>
   <router-view/>
+
 </template>
 
 <style>
@@ -13,7 +14,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #414f5d;
-  min-width: 360pxn;
+  /* min-width: 360px; */
 }
 
 nav {
@@ -37,4 +38,6 @@ nav a.router-link-exact-active {
   background: #414f5d;
   color:#fff;
 }
+
+/*  */
 </style>

@@ -1,12 +1,12 @@
 <template>
   <div class="home">
     <p>Bugun haftaning {{findDay(weekDay)}} kuni!</p>
-    <!-- <button @click="payshanba = !payshanba">Bugungi dars jadvalini ko'rish</button> -->
+    <Soat/>
   </div>
   <Monday v-if="weekDay === 4" /> 
   <Tuesday v-if="weekDay === 3" />
   <Friday v-if="weekDay === 5" />
-
+  <Sunday v-if="weekDay ===0" />
   
 </template>
 
@@ -15,14 +15,18 @@
 import Monday from '@/components/Days/Monday.vue'
 import Tuesday from '@/components/Days/Tuesday.vue'
 import Friday from '@/components/Days/Friday.vue'
- 
+import Sunday from '@/components/Days/Sunday.vue'
+import Soat from '@/components/DigitalClock.vue'
+
 
 export default {
   name: 'HomeView',
   components: {
      Monday,
      Tuesday,
-     Friday
+     Friday ,
+     Sunday ,
+     Soat ,
    },
   
   data(){
