@@ -3,7 +3,7 @@
     <p>Bugun haftaning {{findDay(weekDay)}} kuni!</p>
     <Soat/>
   </div>
-  <Monday v-if="weekDay === 4" /> 
+  <Monday v-if="weekDay === 1" /> 
   <Tuesday v-if="weekDay === 3" />
   <Friday v-if="weekDay === 5" />
   <Sunday v-if="weekDay ===0" />
