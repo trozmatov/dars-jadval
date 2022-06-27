@@ -34,8 +34,11 @@
 export default {
     name: 'Sunday',
     data(){
-        status:null;
-        findClock:null;
+        return{
+        status:null ,
+        findClock:null
+        }
+        
 
     },
     conputed:{
