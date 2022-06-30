@@ -7,6 +7,7 @@
   <Tuesday v-if="weekDay === 3" />
   <Friday v-if="weekDay === 5" />
   <Sunday v-if="weekDay ===0" />
+  <Thursday v-if="weekDay ===4" />
   
 </template>
 
@@ -17,6 +18,7 @@ import Tuesday from '@/components/Days/Tuesday.vue'
 import Friday from '@/components/Days/Friday.vue'
 import Sunday from '@/components/Days/Sunday.vue'
 import Soat from '@/components/DigitalClock.vue'
+import Thursday from '@/components/Days/Thursday.vue'
 
 
 export default {
@@ -26,7 +28,9 @@ export default {
      Tuesday,
      Friday ,
      Sunday ,
+     Thursday ,
      Soat ,
+     
    },
   
   data(){

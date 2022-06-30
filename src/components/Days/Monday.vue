@@ -76,9 +76,6 @@ export default {
 
             default: text = 'Dars tugadi';
                 break;
-
-            
-
            }
 
            return text;

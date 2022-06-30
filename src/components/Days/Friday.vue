@@ -47,7 +47,7 @@
     </table>
    
   </div>
-   <!-- <p class="copy">Made with ❤️ by To'lqin Ro'zmatov</p> -->
+   <a href="https://docs.google.com/forms/d/e/1FAIpQLSfbrfdAXa3qzGGeJ8IfnDAXQUHD16ZQ8LSH6A7dVaKXDbFhGw/viewform?usp=sf_link">Shikoyat qoldirish</a>  
 </template>
 
 <script>
