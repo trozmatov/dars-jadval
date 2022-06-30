@@ -1,14 +1,19 @@
 <template>
   <div class="home">
     <p>Bugun haftaning {{findDay(weekDay)}} kuni!</p>
-    <Soat/>
   </div>
   <Monday v-if="weekDay === 1" /> 
   <Tuesday v-if="weekDay === 3" />
   <Friday v-if="weekDay === 5" />
   <Sunday v-if="weekDay ===0" />
   <Thursday v-if="weekDay ===4" />
-  
+  <div>
+     <a 
+    href="https://docs.google.com/forms/d/e/1FAIpQLSfbrfdAXa3qzGGeJ8IfnDAXQUHD16ZQ8LSH6A7dVaKXDbFhGw/viewform?usp=sf_link"
+    > 
+    Shikoyat qoldirish
+    </a>  
+  </div>
 </template>
 
 <script>

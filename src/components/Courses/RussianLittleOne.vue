@@ -5,10 +5,6 @@
     <h3>O'qituvchi: Rahbaroy ..</h3>
   </div>
   <div>
-    <button >Birinchi guruh</button>
-    <button>Ikkinchi guruh</button>
-  </div>
-  <div>
      <table>
         <tr>
             <th>#</th>
