@@ -1,6 +1,6 @@
 <template>
   <div id="table">
-    <h2>Juma kuni uchun darslar jadvali</h2>
+    <h2>Payshanba kuni uchun darslar jadvali</h2>
     <table>
         <tr>
             <th>Fan</th>
@@ -46,12 +46,7 @@
         </tr>
     </table>
     
-  </div>
-  <a 
-    href="https://docs.google.com/forms/d/e/1FAIpQLSfbrfdAXa3qzGGeJ8IfnDAXQUHD16ZQ8LSH6A7dVaKXDbFhGw/viewform?usp=sf_link"
-    > 
-    Shikoyat qoldirish
-    </a>  
+  </div>npm
 </template>
 
 <script>
