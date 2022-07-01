@@ -46,7 +46,7 @@
         </tr>
     </table>
     
-  </div>npm
+  </div>
 </template>
 
 <script>
