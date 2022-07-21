@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>O'qituvchi: Xumora Ro'zimatova</h3>
+    <h3>O'qituvchi: Mavluda Matkarimova</h3>
   </div>
   <div>
      <table>
@@ -13,20 +13,20 @@
         <tr>
             <td>1</td>
             <td>Dushanba</td>
-            <td>16:00</td>
-            <td>4-xona</td>
+            <td>17:00 - 18:30</td>
+            <td>2-xona</td>
         </tr>
         <tr>
             <td>2</td>
             <td>Chorshanba</td>
-            <td>16:00</td>
-            <td>4-xona</td>
+            <td>17:00 - 18:30</td>
+            <td>2-xona</td>
         </tr>
         <tr>
             <td>3</td>
             <td>Juma</td>
-            <td>16:00</td>
-            <td>1-xona</td>
+            <td>17:00 - 18:30</td>
+            <td>2-xona</td>
         </tr>
     </table>
   </div>
@@ -36,7 +36,7 @@
 <script>
 
 export default {
-  name: 'Biology'
+  name: 'RussianBig'
 
 }
 </script>

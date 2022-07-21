@@ -1,6 +1,5 @@
 <template>
   <div>
-      <h2>Tarix fani bo'yicha o'quv kursi</h2>
       <h3>O'qituvchi: Sanjarbek ..</h3>
   </div>
   <div>

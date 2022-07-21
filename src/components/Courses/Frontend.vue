@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h2>Front-end dasturlash kursi</h2>
     <h3>O'qituvchi: To'lqin Ro'zimatov</h3>
   </div>
   <div>

@@ -3,7 +3,7 @@
     <p>Bugun haftaning {{findDay(weekDay)}} kuni!</p>
   </div>
   <Monday v-if="weekDay === 1" /> 
-  <Tuesday v-if="weekDay === 3" />
+  <Tuesday v-if="weekDay === 2" />
   <Friday v-if="weekDay === 5" />
   <Sunday v-if="weekDay ===0" />
   <Thursday v-if="weekDay ===4" />
@@ -25,7 +25,6 @@ import Sunday from '@/components/Days/Sunday.vue'
 import Soat from '@/components/DigitalClock.vue'
 import Thursday from '@/components/Days/Thursday.vue'
 
-
 export default {
   name: 'HomeView',
   components: {
@@ -35,6 +34,7 @@ export default {
      Sunday ,
      Thursday ,
      Soat ,
+    
      
    },
   
