@@ -1,8 +1,8 @@
 <template>
   <nav>
     <router-link to="/">Dars jadvali</router-link> 
-    <router-link to="/about">Kurslar</router-link>
     <router-link to="/courses">Kurslar</router-link>
+     <router-link to="/about">Yangiliklar</router-link>
   </nav>
   <router-view/>
 

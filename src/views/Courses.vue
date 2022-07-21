@@ -2,7 +2,7 @@
   <h1>Courses</h1>
   <div>
     <form @submit.prevent="courseSelect">
-      <select v-model="selected">
+      <select v-model="selected" aria-placeholder="Fanni tanlang..">
         <option v-for="(subject, index) in subjects" :key="index">
           {{ subject.course }}
         </option>
@@ -151,6 +151,6 @@ select {
     sans-serif;
   font-size: 18px;
   color: #60666d;
-  
+
 }
 </style>

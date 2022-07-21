@@ -1,6 +1,6 @@
 <template>
 
-  <div class="about">
+  <!-- <div class="about">
     <h1>Kurslar</h1>
   </div>
   <div>
@@ -20,8 +20,11 @@
   <Frontend  v-if="front" />
   <RussianBig v-if="russianBig" />
   <RussianLittleOne v-if="russianLO"/>
-  <RussianLittleTwo v-if="russianLT" />
+  <RussianLittleTwo v-if="russianLT" /> -->
 
+<div>
+  <h2>Yangiliklar</h2>
+</div>
 </template>
 <script>
   import History from '@/components/Courses/History.vue'
