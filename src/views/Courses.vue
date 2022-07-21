@@ -1,5 +1,6 @@
 <template>
-  <h1>Courses</h1>
+  <h1>Kurslar</h1>
+  <p>Kerakli fanni tanlang:</p>
   <div>
     <form @submit.prevent="courseSelect">
       <select v-model="selected" aria-placeholder="Fanni tanlang..">
@@ -151,6 +152,7 @@ select {
     sans-serif;
   font-size: 18px;
   color: #60666d;
+  padding: 10px;
 
 }
 </style>
