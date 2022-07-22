@@ -16,4 +16,10 @@
       "scripthost"
     ]
   }
+} ,
+
+modele.exports= {
+  pwa:{
+    name: 'Dars jadval',
+  }
 }
